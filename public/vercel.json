@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "public/sachlat.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "public/sachlat.html" }
-  ]
-}
